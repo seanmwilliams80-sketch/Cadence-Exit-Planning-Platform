@@ -1,4 +1,10 @@
 {
+  "outputDirectory": ".",
+  "routes": [
+    { "src": "/assessment", "dest": "/assessment.html" },
+    { "src": "/", "dest": "/index.html" }
+  ]
+}{
   "version": 2,
   "builds": [
     { "src": "*.html", "use": "@vercel/static" }
